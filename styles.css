@@ -1,0 +1,157 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+ul {
+  display: flex;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: rgb(64, 91, 97);
+  color: rgb(185, 237, 221);
+  padding: 20px;
+  font-size: 25px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list li:hover {
+  transform: scale(1.05);
+}
+
+.nav-list li a {
+  color: rgb(185, 237, 221);
+  text-decoration: none;
+}
+
+#welcome-section {
+  background-image: linear-gradient(
+    to right,
+    rgb(185, 237, 221),
+    rgb(107, 161, 146)
+  );
+  text-align: center;
+  padding: 100px 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(61, 88, 94);
+}
+
+#welcome-section p{
+    font-size: 40px;
+    
+}
+#welcome-section h1{
+    font-size: 50px;
+    
+}
+
+#profile-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: rgb(87, 125, 134);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#projects {
+  padding: 40px;
+  background-color: rgb(135, 203, 185);
+  text-align: center;
+  color: rgb(87, 125, 134);
+  
+}
+#projects h2{
+    font-size: 35px;
+}
+
+#projects-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background-color: rgb(185, 237, 221);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+.project-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.project-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.project-tile:hover {
+  transform: scale(1.05);
+}
+#projects {
+  margin-top: 10px;
+}
+
+#projects a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 16px;
+  background-color: rgb(87, 125, 134);
+  color: rgb(185, 237, 221);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#projects a:hover {
+  background-color: rgb(87, 125, 134);
+}
+
+#contact-me {
+  background-color: rgb(185, 237, 221);
+  padding: 40px;
+  text-align: center;
+  color: rgb(68, 99, 106);
+  font-size: 20px;
+}
+
+#contact-me p {
+  margin-bottom: 10px;
+}
+
+
+@media (min-width: 576px) {
+}
